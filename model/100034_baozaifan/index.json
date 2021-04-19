@@ -29,18 +29,21 @@
             "name":"wunai.exp.json"
         }
     ],
+    "layout":{
+        "center_x": 0,
+        "center_y": 0,
+        "width": 1.8
+    },
     "model":"model.moc",
     "motions":{
-        "":[
-            {
-                "file":"action/fumaozi.mtn"
-            },
-            {
-                "file":"action/idle.mtn"
-            },
-            {
-                "file":"action/sikao.mtn"
-            }
+        "idle":[
+            {"file":"action/idle.mtn"}
+        ],
+        "flick_head":[
+            {"file":"action/fumaozi.mtn"}
+        ],
+        "tap_body":[
+            {"file":"action/sikao.mtn"}
         ]
     },
     "textures":[
